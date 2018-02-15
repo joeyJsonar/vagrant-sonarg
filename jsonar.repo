@@ -1,0 +1,8 @@
+[Jsonar]
+name=Jsonar Repository
+baseurl=http://SonarUser:s0nar10@test-rpm.jsonar.com/
+#baseurl=http://netboss:PwqTSXJZ@rpm.jsonar.com/
+#baseurl=http://SonarRelease:s0nar20@staging-rhel7.jsonar.com/
+enabled=1
+priority=1
+gpgcheck=0
