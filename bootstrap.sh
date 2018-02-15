@@ -13,5 +13,8 @@ yum install -y sonarg
 echo "Setting up SonarG..."
 /vagrant/sonarg-install.sh
 
+cp /vagrant/sonard.conf /etc/sonar/sonard.conf
+systemctl restart sonard
+
 echo "Restarting rsyslog..."
 systemctl restart rsyslog
